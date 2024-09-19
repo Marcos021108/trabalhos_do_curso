@@ -1,22 +1,65 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: #c49352;
+body {
+  background-color: #c49352;
 }
 
-main{
-    background-color: #f07373;
+main {
+  background-color: #f07373;
+  padding: 15px;
+  border-radius: 5px;
+
+  min-width: 270px;
+  max-width: 800px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+/*celulares*/
+@media (min-width: 320px) and (max-width: 750px) {
+  h1 {
+    color: #ffffff;
+  }
+  p {
+    color: #ffffff;
+  }
+  body {
+    background-color: #000000;
+  }
+  main {
+    background-color: #7fffd4;
     padding: 15px;
     border-radius: 5px;
 
     min-width: 270px;
     max-width: 800px;
     margin: auto;
+  }
 }
 
-img{
-    width: 100%;
+@media (min-width: 751px) and (max-width: 1440px) {
+  h1 {
+    color: #00ffff;
+  }
+  p {
+    color: #f5deb3;
+  }
+  body {
+    background-color: #000000;
+  }
+  main {
+    background-color: #db7fff;
+    padding: 15px;
+    border-radius: 5px;
+
+    min-width: 270px;
+    max-width: 800px;
+    margin: auto;
+  }
 }
